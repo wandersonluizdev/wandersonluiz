@@ -2,25 +2,38 @@
 
 int main (){
 
-int idade, matricula;
-float altura;
-char nome[50];
+char estado[2];
+char carta[2];
+char codigo[2];
+char cidade[2];
+int populacao[2];
+float area;
+float pib[2];
+int pontosturisticos;
 
-printf("Digite sua idade: \n");
-scanf("%d", &idade);
+printf("Qual é a sua carta: \n");
+scanf("%s" , &carta);
 
-printf("Digite sua altura: \n");
-scanf("%f", &altura);
+printf("Qual é o seu estado: \n");
+scanf("%s" , &estado);
 
-printf("Digite seu nome: \n");
-scanf("%s", &nome);
+printf("Qual é o seu código: \n");
+scanf("%s" , &codigo);
 
-printf("Digite a sua matrícula: \n");
-scanf("%d", &matricula);
+printf("Qual e o nome da cidade: \n");
+scanf("%c" , &cidade);
+
+printf("Número da População: \n");
+scanf("%d" , &populacao);
 
 
-printf("Nome do aluno: %s - Matrícula %d\n" , nome , matricula);
-printf("Idade: %d - Altura: %f", idade, altura);
+
+
+
+
+
+
+
 
 return 0;
 
